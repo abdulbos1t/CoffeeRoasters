@@ -7,6 +7,7 @@
     <title>COFFEE ROASTERS</title>
     <link rel="shortcut icon" href="./images/site-title-logo.svg" type="image/x-icon">
     <!-- STYLES CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -93,16 +94,131 @@
         <!-- DRINK COFFEE -->
         <div class="drink-coffee">
             <div class="container drink-coffee-container">
-                <div class="drink-coffee-left">
-                    <h2 class="drink-coffe-left-title">01 Preferences</h2>
-                    <h2 class="drink-coffe-left-title">02 Bean Type</h2>
-                    <h2 class="drink-coffe-left-title">03 Quantity</h2>
-                    <h2 class="drink-coffe-left-title">04 Grind Option</h2>
-                    <h2 class="drink-coffe-left-title">05 Deliveries</h2>
-                </div>
+                <div class="drink-coffe-and-accordion">
+                    <div class="drink-coffee-left">
+                        <h2 class="drink-coffe-left-title">01 Preferences</h2>
+                        <h2 class="drink-coffe-left-title">02 Bean Type</h2>
+                        <h2 class="drink-coffe-left-title">03 Quantity</h2>
+                        <h2 class="drink-coffe-left-title">04 Grind Option</h2>
+                        <h2 class="drink-coffe-left-title">05 Deliveries</h2>
+                    </div>
+    
+            <!-- ACCORDION -->
+            <ul id="accordion" class="accordion">
+                <li>
+                  <div class="link">How do you drink your coffee?<i class="fa fa-chevron-down"></i></div>
+                  <ul class="accordion-cards">
+                    <div class="accordion-cards-list">
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Capsule</h3>
+                          <p class="accordion-cards-text">Compatible with Nespresso systems and similar brewers</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Filter</h3>
+                          <p class="accordion-cards-text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Espresso</h3>
+                          <p class="accordion-cards-text">Dense and finely ground beans for an intense, flavorful experience</p>
+                      </li>
+                    </div>
+                </ul>
+                </li>
+                <li>
+                  <div class="link">What type of coffee?<i class="fa fa-chevron-down"></i></div>
+                  <ul class="accordion-cards">
+                    <div class="accordion-cards-list">
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Single Origin</h3>
+                          <p class="accordion-cards-text">Distinct, high quality coffee from a specific family-owned farm</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Decaf</h3>
+                          <p class="accordion-cards-text">Just like regular coffee, except the caffeine has been removed</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Blended</h3>
+                          <p class="accordion-cards-text">Combination of two or three dark roasted beans of organic coffees</p>
+                      </li>
+                    </div>
+                </ul>
+                </li>
+                <li>
+                  <div class="link"></i>How much would you like?<i class="fa fa-chevron-down"></i></div>
+                  <ul class="accordion-cards">
+                    <div class="accordion-cards-list">
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">250g</h3>
+                          <p class="accordion-cards-text">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">500g</h3>
+                          <p class="accordion-cards-text">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">1000g</h3>
+                          <p class="accordion-cards-text">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                      </li>
+                    </div>
+                </ul>
+                </li>
+                <li>
+                  <div class="link">Want us to grind them?<i class="fa fa-chevron-down"></i></div>
+                  <ul class="accordion-cards">
+            
+                    <div class="accordion-cards-list">
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Wholebean</h3>
+                          <p class="accordion-cards-text">Best choice if you cherish the full sensory experience</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Filter</h3>
+                          <p class="accordion-cards-text">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Cafetiére</h3>
+                          <p class="accordion-cards-text">Course ground beans specially suited for french press coffee</p>
+                      </li>
+                    </div>
+            
+                </ul>
+                </li>
+                <li>
+                  <div class="link"></i>How often should we deliver?<i class="fa fa-chevron-down"></i></div>
+                  <ul class="accordion-cards">
+                            <div class="accordion-cards-list">
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Every week</h3>
+                          <p class="accordion-cards-text">$7.20 per shipment. Includes free first-class shipping.</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Every 2 weeks</h3>
+                          <p class="accordion-cards-text">$9.60 per shipment. Includes free priority shipping.</p>
+                      </li>
+                      <li class="accordion-cards-item">
+                          <h3 class="accordion-cards-title">Every month</h3>
+                          <p class="accordion-cards-text">$12.00 per shipment. Includes free priority shipping.</p>
+                      </li>
+                    </div>
+                </ul>
+                </li>
+              </ul>
             </div>
-        </div>
+              <!-- ACCORDION end-->
+              <div class="create-plan-bottom">  
+                  <div class="order-summary">
+                      <h3 class="order-summary-title">Order Summary</h3>
+                      <p class="order-summary-text">“I drink my coffee using <span class="order-summary-black-text">Capsules</span>, with a <span class="order-summary-black-text">_____</span>type of bean. <span class="order-summary-black-text">_____</span>, sent to me <span class="order-summary-black-text">_____</span>.”</p>
+                  </div>
+                  <a class="site-btn green-btn" href="#">Create me plan</a>
+              </div>
+        <img class="create-plan-left-leaf" src="./images/left-leaf.svg" aria-hidden="true" width="402" height="300">
+        <img class="create-plan-right-leaf" src="./images/right-leaf.svg" aria-hidden="true" width="392" height="477">
+        <img class="create-plan-right-light-leaf" src="./images/right-light-leaf.svg" aria-hidden="true" width="253" height="215">
+    </div>
+</div>
         <!-- DRINK COFFEE end -->
+               
     </main>
     <!-- MAIN SECTOIN END -->
 
@@ -141,5 +257,36 @@
         </div>
     </footer>
     <!-- SITE FOOTER END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $(function() {
+	var Accordion = function(el, multiple) {
+		this.el = el || {};
+		this.multiple = multiple || false;
+
+		// Variables privadas
+		var links = this.el.find('.link');
+		// Evento
+		links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+	}
+
+	Accordion.prototype.dropdown = function(e) {
+		var $el = e.data.el;
+			$this = $(this),
+			$next = $this.next();
+
+		$next.slideToggle();
+		$this.parent().toggleClass('open');
+
+		if (!e.data.multiple) {
+			$el.find('.accordion-cards').not($next).slideUp().parent().removeClass('open');
+		};
+	}	
+
+	var accordion = new Accordion($('#accordion'), false);
+});
+
+    </script>
 </body>
 </html>

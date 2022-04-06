@@ -684,6 +684,162 @@ img {
     padding-top: 80px;
 }
 
+.drink-coffee {
+    padding: 20px;
+    overflow-x: hidden;
+}
+.drink-coffee-container {
+    max-width: 1400px;
+    padding: 50px 0;
+    background-color: #dddddd;
+    background-image: url("../images/our-collection-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.drink-coffe-and-accordion{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.drink-coffee-left {
+    margin-left: 30px;
+    cursor: pointer;
+    margin-bottom: -35px;
+}
+.drink-coffe-left-title {
+    margin-bottom: 35px;
+}
+/* ACCORDION STYLES */
+.accordion {
+    width: 100%;
+    max-width: 660px;
+    list-style-type: none;
+    margin-right: 140px;
+    margin-top: -60px;
+  }
+  
+  .accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 60px 15px 15px 0;
+    color: var(--black-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    position: relative;
+    transition: all 0.4s ease;
+  }
+  
+  .accordion li i {
+    margin-left: 56px;
+    transition: all 0.4s ease;
+  }
+  
+  .accordion li i.fa-chevron-down {
+    
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  
+  .accordion li.open i.fa-chevron-down {
+    transform: rotate(180deg);
+  }
+  
+   .accordion-cards {
+    display: none;
+    font-size: 14px;
+  }
+  .accordion-cards-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .accordion-cards-item{
+    width: 205.92px;
+    height: 220px;
+    background-color: rgba(10, 119, 95, 0.2);
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  .accordion-cards-item:hover{
+    background-color: var(--brand-green-color);
+    color: var(--white-color);
+  }
+  .accordion-cards-title{
+    padding-top: 30px;
+    padding-left: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .accordion-cards-text{
+    padding: 0 12px 56px 16px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .create-plan-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-right: 140px;
+}
+.order-summary {
+    width: 659.75px;
+    height: 181px;
+    background-color: #C99B67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 19.99px;
+    padding-right: 29.99px;
+    margin-bottom: 20px;
+}
+.order-summary-title {
+    line-height: 18.75px;
+    text-align: left;
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.order-summary-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: var(--white-color);
+}
+.order-summary-black-text{
+    color: var(--black-color);
+}
+
+.create-plan-left-leaf {
+    position: absolute;
+    bottom: 24.27px;
+    left: -242px;
+}
+.create-plan-right-leaf {
+    position: absolute;
+    top: 176px;
+    right: -295px;
+    z-index: 2;
+}
+.create-plan-right-light-leaf {
+    position: absolute;
+    top: 248px;
+    right: -155px;
+    z-index: 1;
+}
+
+
+
 /* RETINA BACKGROUND IMG */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
